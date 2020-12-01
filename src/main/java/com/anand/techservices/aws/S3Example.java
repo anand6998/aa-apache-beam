@@ -12,7 +12,6 @@ import org.apache.beam.sdk.values.PCollection;
 
 public class S3Example {
     public static void main(String[] args) {
-        // AKIAZ3GGBWFFONBKPTPO,BC92QgCVUYz34T2ifGN93wudiJ4NlRIWoua/An62
         Options options = PipelineOptionsFactory.fromArgs(args).withValidation().as(Options.class);
         Pipeline p = Pipeline.create(options);
 
